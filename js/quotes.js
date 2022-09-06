@@ -26,12 +26,14 @@ const quotes = [
 }
 ]
 const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("#quote span:last-child");
+//const author = document.querySelector("#quote span:last-child");
 
 
 const randNum=Math.floor(Math.random(0)*quotes.length);
 const todaysQuote = quotes[randNum];
-//console.log(todaysQuote);
 
+quote.classList.add("quote");
+//author.classList.add("author");
 quote.innerText = todaysQuote.quote;
-author.innerText = todaysQuote.author;
+//author.innerText = todaysQuote.author;
+

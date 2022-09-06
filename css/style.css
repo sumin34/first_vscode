@@ -1,3 +1,110 @@
 .hidden{
     display: none;
 }
+
+body{
+    background-color: aliceblue;
+}
+
+@keyframes fadeIn{
+from{
+    opacity: 0;
+}
+to{
+    opacity: 0.7;
+}
+}
+
+.hello{
+    color: aliceblue;
+}
+.bgImage{
+    background-position : center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: inherit;
+    animation: fadeIn 0.5s linear;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+.quote{
+    color: aliceblue;
+    position: absolute;
+    font-size: large;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.author{
+    color: aliceblue;
+    font-size: large;
+    align-content: center;
+}
+.todolist{
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    text-align: center;
+    color :aliceblue;
+}
+.button{
+    background-color: transparent;
+    color:tomato;
+    border-color: transparent;
+}
+
+.enter{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align:center;
+}
+.todoinput{
+    position: relative;
+    top: 60%;
+    width: 30%;
+    text-align: 10%;
+    text-align: center;
+}
+.list{
+    position: relative;
+    top: 60%;
+    width: 100%;
+    right: 2%;
+    text-align: center;
+}
+.center{
+    color: aliceblue;
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-style:normal;
+    
+}
+
+.img-cover{
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.weather{
+    position: absolute;
+    color: aliceblue;
+    font-size: 100px;
+}

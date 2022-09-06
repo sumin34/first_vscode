@@ -25,6 +25,7 @@ loginForm.addEventListener("submit",onLoginSubmit);
 
 function paintGreetings(username){
     h1.classList.remove(HIDEDEN_CLASSNAME);
+    h1.classList.add("hello");
     h1.innerText = ` ${username}`;
 }
 
